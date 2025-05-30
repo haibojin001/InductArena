@@ -1,0 +1,246 @@
+{
+    "board_size": {
+        "rows": 15,
+        "cols": 15
+    },
+    "initial_setup": [
+        "o6 black plane",
+        "e7 red plane",
+        "a0 black tank",
+        "c11 red tank",
+        "n1 black queen",
+        "l10 red queen",
+        "k2 black king",
+        "d13 red king",
+        "n6 black bishop",
+        "j10 red bishop",
+        "h4 black knight",
+        "i11 red knight",
+        "m5 black pawn",
+        "j8 red pawn",
+        "b4 black wall",
+        "f14 red wall"
+    ],
+    "piece_rules": {
+        "plane": "special1",
+        "tank": "special2",
+        "queen": "special3",
+        "king": "special4",
+        "bishop": "normal1",
+        "knight": "normal2",
+        "pawn": "normal3",
+        "wall": "normal6"
+    },
+    "moves": [
+        {
+            "round": 1,
+            "red_move": "i11 j9",
+            "black_move": "n1 k3",
+            "event": "/"
+        },
+        {
+            "round": 2,
+            "red_move": "j9 h8",
+            "black_move": "a0 b5",
+            "event": "/"
+        },
+        {
+            "round": 3,
+            "red_move": "c11 c7",
+            "black_move": "b4 d6",
+            "event": "/"
+        },
+        {
+            "round": 4,
+            "red_move": "l10 i9",
+            "black_move": "b5 a2",
+            "event": "/"
+        },
+        {
+            "round": 5,
+            "red_move": "e7 c12",
+            "black_move": "h4 g6",
+            "event": "/"
+        },
+        {
+            "round": 6,
+            "red_move": "f14 h12",
+            "black_move": "d6 f8",
+            "event": "/"
+        },
+        {
+            "round": 7,
+            "red_move": "j8 k7",
+            "black_move": "f8 d6",
+            "event": "/"
+        },
+        {
+            "round": 8,
+            "red_move": "j10 i11",
+            "black_move": "g6 i7",
+            "event": "/"
+        },
+        {
+            "round": 9,
+            "red_move": "c12 a1",
+            "black_move": "k3 n2",
+            "event": "/"
+        },
+        {
+            "round": 10,
+            "red_move": "a1 c6",
+            "black_move": "k2 k12",
+            "event": "/"
+        },
+        {
+            "round": 11,
+            "red_move": "h12 f14",
+            "black_move": "n2 k1",
+            "event": "/"
+        },
+        {
+            "round": 12,
+            "red_move": "h8 j7",
+            "black_move": "a2 o12",
+            "event": "/"
+        },
+        {
+            "round": 13,
+            "red_move": "c6 i8",
+            "black_move": "m5 d14",
+            "event": "/"
+        },
+        {
+            "round": 14,
+            "red_move": "i9 f11",
+            "black_move": "o12 g8",
+            "event": "/"
+        },
+        {
+            "round": 15,
+            "red_move": "i8 c6",
+            "black_move": "d14 o3",
+            "event": "/"
+        },
+        {
+            "round": 16,
+            "red_move": "f14 d12",
+            "black_move": "g8 c8",
+            "event": "/"
+        },
+        {
+            "round": 17,
+            "red_move": "c7 i9",
+            "black_move": "c8 f1",
+            "event": "/"
+        },
+        {
+            "round": 18,
+            "red_move": "j7 k5",
+            "black_move": "k12 k2",
+            "event": "/"
+        },
+        {
+            "round": 19,
+            "red_move": "i9 b12",
+            "black_move": "n6 n7",
+            "event": "/"
+        },
+        {
+            "round": 20,
+            "red_move": "c6 g8",
+            "black_move": "f1 i2",
+            "event": "/"
+        },
+        {
+            "round": "extra_1",
+            "red_move": "d12 f10",
+            "black_move": "k1 n3",
+            "event": "/"
+        },
+        {
+            "round": "extra_2",
+            "red_move": "i11 i10",
+            "black_move": "k2 k8",
+            "event": "/"
+        },
+        {
+            "round": "extra_3",
+            "red_move": "b12 i9",
+            "black_move": "i7 h5",
+            "event": "/"
+        },
+        {
+            "round": "extra_4",
+            "red_move": "f11 c13",
+            "black_move": "o3 n2",
+            "event": "/"
+        },
+        {
+            "round": "extra_5",
+            "red_move": "i10 j11",
+            "black_move": "o6 h4",
+            "event": "/"
+        },
+        {
+            "round": "extra_6",
+            "red_move": "j11 i12",
+            "black_move": "d6 b8",
+            "event": "/"
+        },
+        {
+            "round": "extra_7",
+            "red_move": "c13 c9",
+            "black_move": "h5 i3",
+            "event": "/"
+        },
+        {
+            "round": "extra_8",
+            "red_move": "k7 l6",
+            "black_move": "n7 n8",
+            "event": "/"
+        },
+        {
+            "round": "extra_9",
+            "red_move": "l6 e13",
+            "black_move": "h4 o6",
+            "event": "/"
+        },
+        {
+            "round": "extra_10",
+            "red_move": "d13 f13",
+            "black_move": "o6 e8",
+            "event": "/"
+        },
+        {
+            "round": "extra_11",
+            "red_move": "f13 f7",
+            "black_move": "k8 k2",
+            "event": "/"
+        },
+        {
+            "round": "extra_12",
+            "red_move": "e13 l6",
+            "black_move": "n2 m1",
+            "event": "/"
+        },
+        {
+            "round": "extra_13",
+            "red_move": "f7 f13",
+            "black_move": "e8 i6",
+            "event": "/"
+        },
+        {
+            "round": "extra_14",
+            "red_move": "f13 f7",
+            "black_move": "n8 n9",
+            "event": "/"
+        },
+        {
+            "round": "extra_15",
+            "red_move": "no move",
+            "black_move": "n9 o10",
+            "event": "/"
+        }
+    ]
+}
