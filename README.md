@@ -6,7 +6,14 @@ This repository contains the official codebase for **Reasoning Can Hurt the Indu
 - **2025-05-29**: Initial release of the repository.
   
 # Models
+This project supports multiple LLMs via API calls. You will need valid API keys for the following services:
 
+- **OpenAI**: Used for models like GPT-4o.  
+  ➤ Set your API key as an environment variable or in a `.env` file:
+  
+  ```bash
+  export OPENAI_API_KEY=your-key-here
+  
 # Environment Setup
 To set up the environment, use Conda to create a new environment with the required dependencies.
 ## Step 1: Create a Conda Environment
