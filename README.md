@@ -1,6 +1,7 @@
 # Reasoning Can Hurt the Inductive Abilities of Large Language Models
 
-This repository contains the official codebase for **Reasoning Can Hurt the Inductive Abilities of Large Language Models**.
+This repository contains the official codebase for **Reasoning Can Hurt the Inductive Abilities of Large Language Models**.This repository contains the official codebase for **Reasoning Can Hurt the Inductive Abilities of Large Language Models**, which introduces four game-based tasks to evaluate inductive reasoning in large language models (LLMs). Each task presents gameplay governed by both Normal Rules (NRs) and Special Rules (SRs), which the model must infer from observation.
+
 # Update
 - **2025-05-29**: Initial release of the repository.
   
